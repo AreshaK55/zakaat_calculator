@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Nisab (updated nisab of this year in rupees)"
+                android:labelFor="@id/Nisab" />
+            <EditText
+                android:id="@+id/Nisab"
+
+                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:inputType="number"
+                android:text="80933"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value of Gold "
+            android:layout_marginLeft="10dp"
+            android:labelFor="@id/Gold" />
+
+        <EditText
+            android:id="@+id/Gold"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Value of Silver "
+            android:labelFor="@id/Silver" />
+
+        <EditText
+            android:id="@+id/Silver"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash:"
+            android:textColor="#AF0D20"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+             />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="In hand and in bank accounts "
+            android:labelFor="@id/bank" />
+        <EditText
+            android:id="@+id/bank"
+
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Deposited for some future purpose "
+            android:labelFor="@id/future" />
+        <EditText
+
+            android:id="@+id/future"
+
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Given out in loans "
+            android:labelFor="@id/loans" />
+        <EditText
+            android:id="@+id/loans"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+
+            android:inputType="number"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:text="Business investments, shares, saving certificates, pensions funded by money in one’s possession "
+            android:labelFor="@id/investment" />
+        <EditText
+            android:id="@+id/investment"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+
+            android:inputType="number"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Trade of Goods:"
+            android:textSize="20sp"
+            android:textColor="#AF0D20"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Value of stock "
+            android:labelFor="@id/stocks" />
+        <EditText
+            android:id="@+id/stocks"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+
+            android:inputType="number"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liabilities:"
+            android:textColor="#AF0D20"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Borrowed money, goods bought on credit "
+            android:labelFor="@id/credit" />
+        <EditText
+            android:id="@+id/credit"
+            android:layout_height="wrap_content"
+
+            android:layout_width="100dp"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Wages due to employees "
+            android:labelFor="@id/Wages" />
+        <EditText
+            android:id="@+id/Wages"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Taxes, rent, utility bills due immediately "
+            android:labelFor="@id/tax" />
+        <EditText
+            android:id="@+id/tax"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:inputType="number"/>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="228dp"
+            android:onClick="Submit"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:backgroundTint="#AF0D20"
+            android:layout_gravity="center"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Assets: "
+            android:textSize="20sp"
+            android:textColor="#AF0D20"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/assets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text=""
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#AF0D20"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="Total Payable: "
+            />
+        <TextView
+            android:id="@+id/payable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text=""
+            />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
